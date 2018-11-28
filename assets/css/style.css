@@ -10,7 +10,7 @@
 }
 #content {
 	background-color: black;
-	height: 100vh;
+	height: 100%;
 }
 
 .menu {
@@ -27,61 +27,6 @@
 	display: none;
 }
 
-/*#box1 {
-	border: 2px solid black;
-	background-color: grey;
-	height: 35px;
-}
-#box2 {
-	border: 2px solid black;
-	background-color: grey;
-	height: 35px;
-}
-#box3 {
-	border: 2px solid black;
-	background-color: grey;
-	height: 35px;
-}
-#box4 {
-	border: 2px solid black;
-	background-color: grey;
-	height: 35px;
-}
-#box5 {
-	border: 2px solid black;
-	background-color: grey;
-	height: 35px;
-}
-#box6 {
-	border: 2px solid black;
-	background-color: grey;
-	height: 35px;
-}
-#box7 {
-	border: 2px solid black;
-	background-color: grey;
-	height: 35px;
-}
-#box8 {
-	border: 2px solid black;
-	background-color: grey;
-	height: 35px;
-}
-#box9 {
-	border: 2px solid black;
-	background-color: grey;
-	height: 35px;
-}
-#box10 {
-	border: 2px solid black;
-	background-color: grey;
-	height: 35px;
-}
-#box11 {
-	border: 2px solid black;
-	background-color: grey;
-	height: 35px;
-}*/
 .bg6 {
 	background-color: grey;
 	border: 2px solid black;
@@ -124,5 +69,7 @@ div:hover {
 }
 .menu:hover {
 	border-radius: 50%;
+	border-style: dotted;
+	box-shadow: 5px 2px 3px white;
 }
 

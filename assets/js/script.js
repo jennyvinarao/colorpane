@@ -7,7 +7,7 @@
 		document.getElementById('box4').classList='';
 		document.getElementById('box5').classList='';
 		document.getElementById('box6').classList='';
-		document.getElementById('box7').classList='';
+	box7.classList='';
 		document.getElementById('box8').classList='';
 		document.getElementById('box9').classList='';
 		document.getElementById('box10').classList='';
@@ -31,18 +31,6 @@
 
 
 	function changeStyle(bar) {
-		// document.getElementById('box1').style.backgroundColor ='';
-		// document.getElementById('box2').style.backgroundColor ='';
-		// document.getElementById('box3').style.backgroundColor ='';
-		// document.getElementById('box4').style.backgroundColor ='';
-		// document.getElementById('box5').style.backgroundColor ='' ;
-		// document.getElementById('box6').style.backgroundColor ='';
-		// document.getElementById('box7').style.backgroundColor ='';
-		// document.getElementById('box8').style.backgroundColor ='' ;
-		// document.getElementById('box9').style.backgroundColor ='';
-		// document.getElementById('box10').style.backgroundColor ='';
-		// document.getElementById('box11').style.backgroundColor ='';
-		// document.getElementById('box12').style.backgroundColor ='';
 
 		var	sty = ('bg' + bar)
 		document.getElementById('box1').classList.add(sty);
